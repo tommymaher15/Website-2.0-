@@ -8,7 +8,7 @@ display:flex;
 justify-content: space-between;
 -moz-box-align: center;
 align-items: center;
-position: fixed;
+
 top: 0px;
 padding: 0px 50px;
 background-color: rgb(10, 25, 47);

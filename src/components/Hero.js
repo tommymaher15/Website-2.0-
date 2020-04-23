@@ -24,16 +24,28 @@ min-height: 100vh;
 
 const HeroHeader = styled.h1 `
 color: rgb(100, 255, 218);
-margin: 0px 0px 20px 3px;
+margin: 0px 0px  3px;
 font-size: 16px;
 font-weight: normal;
-font-family: "SF-Regular"; `
+font-family: "SF-Regular";
+margin-bottom: 20px;
+margin-left: 3px;
+margin-right: 0px;
+margin-top: 0px; `
 
 const Button = styled.button`
 
-font-size: 1.3rem;
-border:none;
-border-radius: 5px;
+color: rgb(100, 255, 218);
+font-family: "SF-Regular";
+background-color: transparent;
+border: 1px solid rgb(100, 255, 218);
+border-radius: 3px;
+padding: 1.25rem 1.75rem;
+font-size: 14px;
+line-height: 1;
+text-decoration: none;
+cursor: pointer;
+margin-top: 20px;
 `;
 const Hero2 = styled.h2`
 font-size:80px;
@@ -41,6 +53,10 @@ font-family: "calibre-Bold";
 line-height:1.1;
 font-weight: 600;
 color:rgb(204, 214, 246);
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
 
 `;
 
@@ -48,6 +64,11 @@ const Hero3 = styled.p`
 font-size:80px;
 font-family: "calibre-Bold";
 color: rgb(136, 146, 176);
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+
 `
 
 const Para = styled.p`

@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import './App.css';
 import Socials from './components/Socials';
+import Email from './components/Email';
 
 
 
@@ -14,6 +15,7 @@ function App() {
      <Header /> 
      <Hero />
      <Socials />
+     <Email />
      <Footer />
 
     </div>

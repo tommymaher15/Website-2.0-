@@ -3,25 +3,37 @@ import styled from "styled-components";
 
 const  SocialsBar = styled.div `
 float:right;
-width: 100px;
+    height: 100%;
+    width: 160px;
     position: fixed;
     bottom: 0px;
-    left: 40px;
+    left: 0px;
     right: auto;
-    z-index: 10;
-    color: rgb(168, 178, 209);
-    background-color:#0a192f;
-
+    
+    background-color:#0a192f; 
 `
+const SocialList = styled.ul`
+position:relative;
+top:400px;
+display: flex;
+flex-direction: column;
+color:white;`
+
+const SocialItem = styled.li`
+margin-top:10px;
+`;
+
 
 export default function Socials() {
     return (
         <div className = "Socials-Bar">
           <SocialsBar>
+          <SocialList>
            <li>icon</li>
            <li>icon</li>
            <li>icon</li>
            <li>icon</li>
+           </SocialList>
            </SocialsBar>
             
         </div>
